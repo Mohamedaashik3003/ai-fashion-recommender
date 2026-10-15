@@ -1,0 +1,30 @@
+
+# Dataset images and ZIP archives
+data/real_images/
+data/images/
+data/img/
+data/train/
+data/test/
+data/val/
+data/tryon/
+*.zip
+
+# Generated feature and dataset files
+data/cnn_features.csv
+data/image_features.csv
+data/real_cnn_features.csv
+data/fashion_metadata.csv
+data/fashion_metadata_categorized.csv
+data/fashion_subset.csv
+data/interactions.csv
+data/real_interactions.csv
+data/products.csv
+data/users.csv
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Secrets and local environments
+.env
+.venv/
